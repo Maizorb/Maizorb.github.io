@@ -3,5 +3,25 @@ body {
 }
 
 h1 {
-    font-weight: bold;
+    font-style: italic;
+}
+
+li {
+    font-style: italic
+}
+
+::-webkit-input-placeholder {
+    font-style: italic;
+}
+
+:-moz-placeholder {
+    font-style: italic;
+}
+
+::-moz-placeholder {
+    font-style: italic;
+}
+
+:-ms-input-placeholder {
+    font-style: italic;
 }
