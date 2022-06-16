@@ -7,6 +7,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
     <title>Document</title>
+    <script>
+        function buttonClick(){
+            document.getElementById("message").innerHTML = "Thank you for the name and the password";
+        }
+
+    </script>
 </head>
 
 <body>
@@ -33,26 +39,16 @@
             for="i don't like sports">I don't like or play sports</label>
         <input id="other" type="checkbox" name="sport" value="other"> <label for="other">Other</label>
         <input type="textbox" placeholder="Please specify">
-    </fieldset>
-    <h1>video games</h1>
-    <p>instead of playing sports people will play video games. These games have to be played on a console. These consoles include</p>
-    <ui>
-        <li>Play Station</li>
-        <li>X-box</li>
-        <li>Nintendo Switch</li>
-        <p>What console do you play on?</p>
-    </ui>
-    <fieldset>
-    <input id="play station" type="checkbox" name="video game" value="play station"> <label for="play station">Play Station</label>
-    <input id="xbox" type="checkbox" name="video game" value="xbox"> <label for="xbox">X-box</label>
-    <input id="nintendo" type="checkbox" name="video game" value="nintendo"> <label for="nintendo">Nintendo Switch</label>
-    <input id="pc" type="checkbox" name="video game" value="pc"> <label for="pc">Personal Computer/PC</label>
-    <input id="other" type="checkbox" name="video game" value="other"> <label for="other">Other</label>
-    <input type="textbox" placeholder="Please specify">
+        <input type="submit" onclick="buttonClick()">
     </fieldset>
     <p></p>
     <input type="text" placeholder="First name">
     <input type="text" placeholder="Last name">
-    <input type="password" placeholder="Password"
+    <input type="password" placeholder="Password">
+    <input type="submit" onclick="buttonClick()">
+    <div id="message">
+
+    </div>
+
 </body>
 </html>

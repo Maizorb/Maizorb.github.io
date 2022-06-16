@@ -1,9 +1,60 @@
 body {
-    background-color: cyan;
+    background-color: #2a52be;
 }
 
 h1 {
     font-style: italic;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+h2 {
+    color: #FFFFFF;
+    margin-left: 15px;
+}
+
+h3 {
+    color: #FFFFFF;
+    margin-left: 15px;
+}
+
+h4 {
+    color: #FFFFFF;
+    margin-left: 15px;
+}
+
+h5 {
+    color: #FFFFFF;
+    margin-left: 15px;
+}
+
+h6 {
+    color: #FFFFFF;
+    margin-left: 15px;
+}
+
+h7 {
+    color: #FFFFFF;
+    margin-left: 15px;
+}
+
+p {
+    color: #FFFFFF;
+    margin-left: 15px;
+}
+
+li {
+    color: #FFFFFF;
+    margin-left: 15px;
+}
+
+label {
+    color: #FFFFFF;
+}
+
+fieldset {
+    border-width: 10px;
+    border-color: #ffffff;
 }
 
 li {
@@ -24,4 +75,8 @@ li {
 
 :-ms-input-placeholder {
     font-style: italic;
+}
+
+div {
+    color: #FFFFFF;
 }
